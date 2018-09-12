@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-dao/manager-dao.iml" filepath="$PROJECT_DIR$/manager/manager-dao/manager-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-interface/manager-interface.iml" filepath="$PROJECT_DIR$/manager/manager-interface/manager-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/manager/manager-pojo/manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/manager/manager-service/manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager-web/manager-web.iml" filepath="$PROJECT_DIR$/manager-web/manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop.iml" filepath="$PROJECT_DIR$/myshop.iml" />
+    </modules>
+  </component>
+</project>
