@@ -1,8 +1,9 @@
 package com.xjl.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class ContentCategory {
+public class ContentCategory implements Serializable{
     private Long id;
 
     private Long parentId;

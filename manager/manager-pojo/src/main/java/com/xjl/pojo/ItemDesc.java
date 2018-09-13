@@ -1,8 +1,9 @@
 package com.xjl.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class ItemDesc {
+public class ItemDesc implements Serializable{
     private Long itemId;
 
     private Date created;

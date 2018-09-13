@@ -13,13 +13,13 @@
     <packaging>war</packaging>
 
         <dependencies>
-            <!-- taotao dao依赖 -->
+            <!-- dao依赖 -->
             <dependency>
                 <groupId>com.xjl</groupId>
                 <artifactId>manager-dao</artifactId>
                 <version>${project.version}</version>
             </dependency>
-            <!-- taotao的接口的依赖 -->
+            <!-- 接口的依赖 -->
             <dependency>
                 <groupId>com.xjl</groupId>
                 <artifactId>manager-interface</artifactId>
@@ -79,6 +79,11 @@
             <dependency>
                 <groupId>com.github.sgroschupf</groupId>
                 <artifactId>zkclient</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
             </dependency>
         </dependencies>
 </project>

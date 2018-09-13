@@ -13,6 +13,16 @@
     <packaging>war</packaging>
 
     <dependencies>
+        <dependency>
+            <groupId>com.xjl</groupId>
+            <artifactId>manager-interface</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xjl</groupId>
+            <artifactId>common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!-- Spring -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -86,6 +96,17 @@
             <groupId>com.github.sgroschupf</groupId>
             <artifactId>zkclient</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>dfs</groupId>
+            <artifactId>fastdfsClient</artifactId>
+            <version>1.2.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/fastdfs_client_v1.20.jar</systemPath>
+        </dependency>
     </dependencies>
     <!-- 配置tomcat插件 -->
     <build>
@@ -96,6 +117,14 @@
                 <configuration>
                     <port>8081</port>
                     <path>/</path>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>

@@ -1,8 +1,9 @@
 package com.xjl.pojo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class ItemCat {
+public class ItemCat implements Serializable{
     private Long id;
 
     private Long parentId;

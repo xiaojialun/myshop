@@ -1,10 +1,11 @@
 package com.xjl.pojo;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class ItemParamExample {
+public class ItemParamExample implements Serializable{
     protected String orderByClause;
 
     protected boolean distinct;

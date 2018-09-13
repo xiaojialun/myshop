@@ -16,12 +16,13 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="common" target="1.7" />
+      <module name="fastdfsClient" target="1.7" />
       <module name="manager" target="1.7" />
       <module name="manager-dao" target="1.7" />
       <module name="manager-interface" target="1.7" />
       <module name="manager-pojo" target="1.7" />
       <module name="manager-service" target="1.7" />
-      <module name="manager-web" target="1.7" />
+      <module name="manager-web" target="1.8" />
       <module name="managerpojo" target="1.7" />
       <module name="myshop" target="1.7" />
     </bytecodeTargetLevel>
